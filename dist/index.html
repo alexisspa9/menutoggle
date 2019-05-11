@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MenuToggle</title>
+
+	<style>
+		nav {
+			display: none;
+		}
+
+		nav.open {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<button data-targetmenu="my-menu">button</button>
+
+
+
+	<nav data-menu="my-menu" data-toggled="false">
+		<ul>
+			<li>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+			</li>
+		</ul>
+	</nav>
+
+
+
+	<button data-targetmenu="menu">button 2</button>
+
+
+
+	<nav data-menu="menu">
+		<ul>
+			<li>
+				<a href="#">menu 1</a>
+				<a href="#">menu 2</a>
+				<a href="#">menu 3</a>
+				<a href="#">menu 4</a>
+				<a href="#">menu 5</a>
+			</li>
+		</ul>
+	</nav>
+
+	<script src="main.js"></script>
+</body>
+</html>
