@@ -8,4 +8,8 @@ const menuToggle = () => {
 	});
 }
 
+
+
 menuToggle();
+
+module.exports = () => menuToggle();

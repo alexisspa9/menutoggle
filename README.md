@@ -1,6 +1,23 @@
 # MenuToggle
 
-simply install the package and maintain a structure in your html files like so:
+install the package
+```
+npm install @alexisspa9/mobilemenu
+
+```
+
+then in your index.js yu can use the package like so:
+
+```
+const menuToggle = require('@alexisspa9/mobilemenu');
+
+
+menuToggle();
+
+```
+
+
+and the html strucure should be
 
 ```
 <button data-targetmenu="my-menu">button</button>
